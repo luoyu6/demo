@@ -86,7 +86,7 @@
 	<script type="text/javascript">
 		var li_len = $('#wraper ul li').length;
 		var $li = $('#wraper ul li')
-		var index = 0;
+		var index = -1;
 
 		$.ajax({
 			type: "get",
@@ -163,10 +163,18 @@
 					div_dom.className = 'img_box';
 					//			var div_img_dom = document.createElement('img');
 					var div_img_dom = new Image();
+					var div_a = document.createElement('a');
+					div_a.appendChild(div_img_dom);
+					div_a.setAttribute('href',data[i].href);
+					div_a.setAttribute('target','_blank');
+//					console.log(data[i].href)
+					div_a.className = 'imgbox';
 					div_img_dom.src = data[i].src;
+					div_dom.appendChild(div_a);
+
 					var div_a_dom = document.createElement('a');
 					div_a_dom.className = 'dec';
-					div_dom.appendChild(div_img_dom);
+//					div_dom.appendChild(div_img_dom);
 					div_dom.appendChild(div_a_dom);
 					//			div_dom.className='img_box';
 
