@@ -1,13 +1,13 @@
 [
 				{
 					"src" : "img/1.jpg",
-					"dec" : "小米官网",
+					"dec" : "小米官网-js,jQuery,CSS3,ajax",
 					"time" : "2016/03/18 20:08",
 					"href":"https://luoyu6.github.io/xiaomi/index.html"
 				},
 				{
 					"src" : "img/2.jpg",
-					"dec" : "qq音乐",
+					"dec" : "qq音乐-js,jQuery,ajax",
 					"time" : "2016/03/18 18:25",
 					"href":"https://luoyu6.github.io/qq_music4.0/index.html"
 					
