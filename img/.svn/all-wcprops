@@ -303,17 +303,17 @@ svn:wc:ra_dav:version-url
 V 35
 /svn/ld/!svn/ver/46/demo/img/18.jpg
 END
-19.jpg
-K 25
-svn:wc:ra_dav:version-url
-V 35
-/svn/ld/!svn/ver/46/demo/img/19.jpg
-END
 37.jpg
 K 25
 svn:wc:ra_dav:version-url
 V 35
 /svn/ld/!svn/ver/46/demo/img/37.jpg
+END
+19.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/ld/!svn/ver/46/demo/img/19.jpg
 END
 38.jpg
 K 25
