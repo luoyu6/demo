@@ -1,35 +1,46 @@
 [
 				{
 					"src" : "img/1.jpg",
-					"dec" : "小米官网-js,jQuery,CSS3,ajax",
+					"title" : "小米官网",
+					
+					"dec" : "主页商品展示,轮播，产品页面选择商品，小米8页面",
 					"time" : "2016/03/18 20:08",
 					"href":"https://luoyu6.github.io/xiaomi2.0/index.html"
 				},
 				{
 					"src" : "img/2.jpg",
-					"dec" : "qq音乐-js,jQuery,ajax",
+					"title" : "QQ音乐",
+					"dec" : "播放暂停，上一曲下一曲，循环播放，调整播放进度、音量，切换播放模式，搜索音乐",
+					
+					
 					"time" : "2016/03/18 18:25",
 					"href":"https://luoyu6.github.io/qq_music4.0/index.html"
 					
 				},
 				{
 					"src" : "img/xfc.jpg",
-					"dec" : "小风车——bootstrap页面",
+					"title" : "小风车—bootstrap页面",
+					
+					"dec" : "bootstrap页面",
 					"time" : "2018/10/5 17:09",
 					"href":"https://luoyu6.github.io/xfc_master/index.html"
 					
 				},
 				{
 					"src" : "img/lofter.jpg",
-					"dec" : "乐乎首页",
+					"dec" : "bootstrap页面",
+					"title" : "发布新动态，发表评论，编辑动态内容，喜欢推荐等操作",
 					"time" : "2016/03/18 11:46",
 					"href":"https://luoyu6.github.io/lofter/index.html"
 					
 				},
 				{
-					"src" : "img/5.jpg",
-					"dec" : "沙尘天气来袭 需给皮肤做好防护",
-					"time" : "2016/03/18 11:44"
+					"src" : "img/ele.png",
+					"dec" : "饿了么响应式页面",
+					"title" : "商品加入购物车，计算数量和金额,多导航操作",
+					"time" : "2016/03/18 11:44",
+					"href":"https://luoyu6.github.io/ele_pc/index.html"
+					
 				},
 				{
 					"src" : "img/6.jpg",

@@ -5,13 +5,15 @@
 		<meta charset="utf-8" />
 		<meta name="author" content="luoyu" />
 		<meta name="keywords" content="项目展示 jQuery js项目  CSS3 HTML5 面向对象 web前端项目 javascript" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
 		<!--<link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">-->
 		<link rel="icon" type="image/x-icon" href="img/0.png">
 		<title>展示页面-by luoyu</title>
 
 		<style type="text/css">
 			#wraper {
-				width: 1000px;
+				width: 970px;
 				margin: 0 auto;
 			}
 			
@@ -33,6 +35,8 @@
 			.time span {
 				display: block;
 				margin-bottom: 5px;
+				color: #666;
+				font-size: 14px;
 			}
 			
 			.time a:nth-child(2) {
@@ -44,7 +48,7 @@
 			}
 			
 			.time {
-				padding: 10px 15px;
+				    padding: 0px 15px 15px;
 				/*text-align: center;*/
 			}
 			
@@ -59,15 +63,19 @@
 				margin-bottom: 15px;
 			}
 			
+			.img_box>a {
+				display: block;
+				padding-bottom: 6px;
+			}
+			
 			.img_box img {
 				width: 263px
 			}
 			
-			#wraper>ul>li >.img_box{
+			#wraper>ul>li>.img_box {
 				box-shadow: 2px 2px 10px #B0B0B0;
-				
+				text-align: center;
 				transition: all .2s ease-in-out;
-				
 			}
 			
 			#wraper>ul>li>.img_box:hover {
@@ -78,6 +86,7 @@
 	</head>
 
 	<body>
+		<h1 style="    text-align: center; margin: 50px 0 60px;">展示页面-by luoyu</h1>
 		<div id="wraper" class="clearfix">
 			<ul>
 				<li>
@@ -121,7 +130,7 @@
 				$(window).scroll(function() {
 
 					var hei = $('#wraper').height() + $('#wraper').offset().top - $(document).scrollTop();
-					console.log(hei)
+					//					console.log(hei)
 					//			console.log($(window).height()+"========="+$(document).scrollTop()+"----"+$(window).scrollTop())
 					if(hei < $(window).height()) {
 						num = index + 5
@@ -188,8 +197,8 @@
 					div_dom.appendChild(div_a);
 
 					var div_a_dom = document.createElement('a');
-					div_a_dom.className = 'dec';
-					//					div_dom.appendChild(div_img_dom);
+					div_a_dom.className = 'title';
+					div_a_dom.innerHTML = data[i].title;
 					div_dom.appendChild(div_a_dom);
 					//			div_dom.className='img_box';
 
