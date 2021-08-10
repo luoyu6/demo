@@ -11,8 +11,6 @@
 					"src" : "img/2.jpg",
 					"title" : "QQ音乐",
 					"dec" : "播放暂停，上一曲下一曲，循环播放，调整播放进度、音量，切换播放模式，搜索音乐",
-					
-					
 					"time" : "2016/03/18 18:25",
 					"href":"https://luoyu6.github.io/qq_music4.0/index.html"
 					
@@ -31,6 +29,14 @@
 					"dec" : "发布新动态，发表评论，编辑动态内容，喜欢推荐等操作",
 					"time" : "2016/03/18 11:46",
 					"href":"https://luoyu6.github.io/lofter/index.html"
+					
+				},
+	                      {
+					"src" : "img/ele.png",
+					"title" : "我和yzw",					
+					"dec" : "love",
+					"time" : "2016/03/18 11:44",
+					"href":"https://luoyu6.github.io/showlove/index.html"
 					
 				},
 				{
